@@ -9,19 +9,22 @@
   </head>
   <body>
     <div class="mainBlock">
-      <form class="formBlock">
+      <div class="formBlock">
         <h1 class="header">Admin<span>Dashboard</span></h1>
         <p class="enterEmail">Create Account</p>
-        <input type="text" placeholder="First Name" class="first_name"/>
-        <input type="text" placeholder="Last Name" class="last_name"/>
-        <input type="email" placeholder="Email" class="email"/>
-        <input type="password" placeholder="Password" class="password"/>
-        <input type="password" placeholder="Confirm Password" class="confirm_password"/>
-        <div class="classSignIn">
-          <button class="cl_button">Submit</button>
-        </div>
-        <p>Do you have an account? Please sign in</p>
+
+        <input type="text" placeholder="First Name" class="first_name">
+        <input type="text" placeholder="Last Name" class="last_name">
+        <input type="email" placeholder="Email" class="email">
+        <form>
+        <input type="password" placeholder="Password" class="password" autocomplete="on">
+        <input type="password" placeholder="Confirm Password" class="confirm_password" autocomplete="on">
       </form>
+        <div class="classSignIn">
+          <button class="cl_submit"><b>Submit</b></button>
+        </div>
+        <button  class="cl_sign_in">Do you have an account?<br><b>Sign In</b></button>
+      </div>
     </div>
     <script src="./script.js"></script>
   </body>
