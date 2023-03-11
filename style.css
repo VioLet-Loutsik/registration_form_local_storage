@@ -91,3 +91,8 @@ p {
   font-weight: bold;
   padding-left: 20px;
 }
+.error_sign_in{
+  width: fit-content;
+  background-color: rgb(250, 242, 242);
+  color: red;
+}

@@ -28,7 +28,7 @@ function register() {
   window.location.href = "hi_user.html";
 }
 console.log(arrayData);
-// localStorage.clear()
+localStorage.clear()
 const cl_sign_in = document.querySelector(".cl_sign_in");
 cl_sign_in.addEventListener("click", signinFunction);
 function signinFunction() {

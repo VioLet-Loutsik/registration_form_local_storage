@@ -14,4 +14,4 @@ const giveSalut = document.querySelector('.salut')
 //  ${givenName} переменная в js 
 // косые кавычки - с ними работает знак $
 // с обычгыми не работает знак доллара и не увидим переменную
-giveSalut.innerHTML = `Privet ${givenName}`;
+giveSalut.innerHTML = `Hello ${givenName}`;
