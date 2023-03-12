@@ -26,12 +26,40 @@ function register() {
   // при клике юзера перекидывает на другую страницу в свои личный кабинет нр
   // window- обращение ко всему окну
   window.location.href = "hi_user.html";
+
+// validation name field 
+  const letters_name = /^[A-Za-z]+$/;
+  if (letters_name.value.match(letters) ) {
+    return true;
+  } else {
+    alert("User name must have alphabet characters only");
+    // first_name.focus();
+    // return false;
+  }
+
+
+  //  validation surname field
+  // const letters_surname = /^[A-Za-z]+$/;
+  // if (last_name.value.match(letters_surname) ) {
+  //   return true;
+  // } else {
+  //   alert("User surname must have alphabet characters only");
+  //   last_name.focus();
+  //   return false; 
+  // }
+  // чтобы форма не отправлялассь и страница не обновлялась
 }
-console.log(arrayData);
-localStorage.clear()
+
+
+
+// console.log(arrayData);
+// localStorage.clear()
 const cl_sign_in = document.querySelector(".cl_sign_in");
 cl_sign_in.addEventListener("click", signinFunction);
 function signinFunction() {
   window.location.href = "sign_in.html";
   console.log(hi);
 }
+
+
+// сначала проверяем все инпуты на пустоту
